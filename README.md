@@ -18,3 +18,15 @@ Create an alias matlab in ~/.bash_profile file for easy activation, e.g.:
 ```bash
 alias matlab='~/tools/matlab/matlab2023a/bin/matlab'
 ```
+### 4. Test the installation
+Run the following to test the installation
+```bash
+# if you make alias matlab
+matlab
+```
+or 
+```bash
+# if you do not make alias matlab
+cd ~/tools/matlab/matlab2023a/bin
+./matlab
+```
