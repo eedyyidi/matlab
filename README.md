@@ -1,14 +1,19 @@
 ## Installation matlab
 
 ### 1. Copy the installation package to your folder
+if you have your installation package, skip this step
+
+if you have a matlab account，you can use this installation package
 ```bash
 cd ~/tools
 mkdir matlab
+cd matlab
 cp -r /home/eedy/tools/matlab/matlab_2023a .
+chmod a+x -R ./*
 ```
 ### 2. Install matlab
 ```bash
-cd matlab
+cd matlab_2023a
 ./install
 ```
 In the graphical interface, select your own installation path, e.g.:/home/eedy/tools/matlab/matlab2023a
