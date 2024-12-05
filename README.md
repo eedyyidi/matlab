@@ -1,5 +1,6 @@
 ## Installation matlab
 
+## option 1  
 ### 1. Copy the installation package to your folder
 if you have your installation package, skip this step
 
@@ -32,6 +33,23 @@ matlab
 or 
 ```bash
 # if you do not make alias matlab
+cd ~/tools/matlab/matlab2023a/bin
+./matlab
+```
+
+## option 2
+### 1. Copy matlab to your folder
+```bash
+mkdir tools
+cd ~/tools
+mkdir matlab
+cd matlab
+cp -r /home/eedy/tools/matlab/matlab2023a .
+chmod a+x -R ./*
+```
+### 2. Test the installation
+Run the following to test the installation
+```bash
 cd ~/tools/matlab/matlab2023a/bin
 ./matlab
 ```
